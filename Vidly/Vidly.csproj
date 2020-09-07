@@ -272,6 +272,10 @@
     <Compile Include="Migrations\202007221835298_PopulateGenreData.Designer.cs">
       <DependentUpon>202007221835298_PopulateGenreData.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202009070955007_SeedUsers.cs" />
+    <Compile Include="Migrations\202009070955007_SeedUsers.Designer.cs">
+      <DependentUpon>202009070955007_SeedUsers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Between0And20NumberInStock.cs" />
@@ -644,6 +648,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202007221835298_PopulateGenreData.resx">
       <DependentUpon>202007221835298_PopulateGenreData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009070955007_SeedUsers.resx">
+      <DependentUpon>202009070955007_SeedUsers.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
